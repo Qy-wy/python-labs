@@ -10,4 +10,5 @@ heatmap = ax.imshow(data, cmap='viridis')
 ax.set_title('Тепловая карта 10x10', fontsize=14)
 
 plt.tight_layout()
+plt.savefig('4_plot.png', dpi=300)
 plt.show()

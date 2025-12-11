@@ -17,4 +17,5 @@ ax.set_xlabel('x-axis')
 ax.set_ylabel('y-axis')
 ax.set_zlabel('z-axis')
 
+plt.savefig('7_plot.png', dpi=300)
 plt.show()

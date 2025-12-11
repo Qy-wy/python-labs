@@ -12,5 +12,5 @@ ax.set_xlabel('Количество пользователей')
 ax.set_ylabel('Марка')
 
 ax.grid(axis='x', linestyle='--', alpha=0.4)
-
+plt.savefig('5_plot.png', dpi=300)
 plt.show()

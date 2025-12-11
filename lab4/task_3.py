@@ -8,4 +8,5 @@ fig, ax = plt.subplots(figsize=(8, 6))
 ax.pie(values, labels=categories, autopct='%1.1f%%')
 ax.set_title("Предпочтения пользователей по типам автомобилей")
 
+plt.savefig('3_plot.png', dpi=300)
 plt.show()

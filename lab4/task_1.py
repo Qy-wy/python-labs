@@ -43,4 +43,5 @@ ax2.annotate(
 
 plt.title("Графики двух функций")
 plt.grid(True)
+plt.savefig('1_plot.png', dpi=300)
 plt.show()
